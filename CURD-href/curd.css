@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+}
+body{
+    background: linear-gradient(135deg ,purple , aqua);
+    height: 100vh;
+    font-family:monospace
+    
+}
+.continar{
+    margin: auto;
+}
+.key{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title span i{
+    font-size: 50px;
+}
+.title{
+    font-size: 40px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+input{
+    padding: 3px 20px;
+    width: 500px;
+    border-radius: 20px ;
+    text-align: center;
+    margin: 20px 20px !important;
+    outline: none;
+    border: 1px solid transparent;
+    
+
+}
+input:hover{
+    transform: scale(1.1);
+}
+table{
+    margin: 30px 0;
+    
+}
+.Submit{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+}
+.Submit button{
+    padding: 10px 0;
+    background: linear-gradient(145deg ,#43195d , #1998b8 )  ;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    outline: none;
+    border: 1px solid transparent;
+
+}
+.Submit button:hover{
+    background: linear-gradient(-145deg ,#7d2560, #135e9f )  ;
+    border: 1px solid transparent;
+    outline: none;
+    transform: scale(1.1);
+}
